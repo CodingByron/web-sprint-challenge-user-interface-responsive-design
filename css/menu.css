@@ -258,7 +258,7 @@ div.socials a {
 }
 
 .menu-section h3 {
-  padding: 50px 0;
+  margin: 50px 0;
 }
 
 .menu-section p {
@@ -331,6 +331,22 @@ button {
     font-size: 4rem;
   }
 
+  .top h1 {
+    font-size: 5.5rem;
+  }
+
+  .top nav {
+    text-align: center;
+  }
+
+  .top nav a {
+    margin: 0 100px;
+  }
+
+  div.socials a {
+    margin: 0 20px;
+  }
+
   /* menu */
   .menu {
     background-image: none;
@@ -342,25 +358,96 @@ button {
     background: none;
   }
 
-  .menu-section h3 {
-    border: 1%;
-    border-color: rgb(0, 4, 17);
+  .menu-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
 
-  hr {
+  .menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 70px; */
+    width: 70%;
+  }
+
+  .menu-section h3 {
+    text-align: center;
+    border: 3px solid;
+    border-color: rgb(0, 4, 17);
+    padding: 0 10px;
+  }
+
+  .menu-section p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+  }
+
+  .menu-item {
+    padding: 10px 0;
+  }
+
+  .menu-item div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .dessert-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 50px;
+    padding-left: 80px;
+  }
+
+  .menu-container hr {
     display: block;
-    /* margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 1px; */
+    border-style: solid;
+    border-width: 10px;
+    width: 80%;
+  }
+
+  .menu-section hr {
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    width: 80%;
   }
 
   /* footer section */
   footer {
     height: auto;
     padding-top: 2.5vh;
-    font-size: 2rem;
+  }
+
+  footer h5 {
+    font-size: 2.5rem;
+  }
+
+  .email-input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 100px;
+  }
+
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer p {
+    font-size: 1.6rem;
+    display: flex;
+    text-align: center;
   }
 }
