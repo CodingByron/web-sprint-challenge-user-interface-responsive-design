@@ -344,9 +344,33 @@ button {
 @media (max-width: 428px) {
   /* header section */
 
+  .top h1 {
+    font-size: 5.5rem;
+  }
+
+  .top nav {
+    text-align: center;
+  }
+
+  .top nav a {
+    margin: 0 100px;
+  }
+
+  div.socials a {
+    margin: 0 20px;
+  }
+
   /* gallery section */
   .gallery {
     height: auto;
+  }
+
+  .gallery div {
+    width: 100%;
+  }
+
+  .gallery img {
+    margin: 20px 0;
   }
 
   /* about us section */
@@ -391,6 +415,28 @@ button {
   footer {
     height: auto;
     padding-top: 2.5vh;
-    font-size: 2rem;
+  }
+
+  footer h4 {
+    font-size: 2.5rem;
+  }
+
+  .email-input {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 100px;
+  }
+
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer p {
+    font-size: 1.6rem;
+    display: flex;
+    text-align: center;
   }
 }
